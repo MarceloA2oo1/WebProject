@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section .waveI1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60%;
+    height: 800px;
+    background-size: 1000px 1000px;
+}
+
+section .waveI1.wave1{
+    background: url(/View/LoginGUI/img/lading/waveIz3.svg);
+    animation: animate 5s  linear infinite;
+    z-index: 200;
+    opacity: 1;
+    animation-delay: 0.5s;
+    bottom: 0;
+}
+
+section .waveD1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: 800px;
+    background-size: 1000px 1000px;
+}
+
+section .waveD1.waveD1{
+    background: url(/View/LoginGUI/img/lading/waveD3.svg);
+    animation: animate 5s  linear infinite;
+    z-index: 200;
+    opacity: 1;
+    animation-delay: 0.5s;
+    bottom: 0;
+}
+
+section .waveI2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 720px;
+    background-size: 1000px 1000px;
+}
+
+section .waveI2.wave2{
+    background: url(/View/LoginGUI/img/lading/waveIz2.svg);
+    animation: animate2 5.5s  linear infinite;
+    z-index: 201;
+    opacity: 1;
+    animation-delay: 0.8s;
+    bottom: 0;
+}
+
+section .waveI3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    height: 617px;
+    background-size: 1000px 1000px;
+}
+
+section .waveI3.wave3{
+    background: url(/View/LoginGUI/img/lading/waveIz1.svg);
+    animation: animate3 5s  linear infinite;
+    z-index: 201;
+    opacity: 1;
+    animation-delay: 0.5s;
+    bottom: 0;
+}
+
+section .waveD2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 49%;
+    height: 800px;
+    background-size: 1000px 1000px;
+}
+
+section .waveD2.waveD2{
+    background: url(/View/LoginGUI/img/lading/waveD2.svg);
+    animation: animate 5.5s  linear infinite;
+    z-index: 200;
+    opacity: 1;
+    animation-delay: 0.8s;
+    bottom: 0;
+}
+
+section .waveD3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 760px;
+    background-size: 1000px 1000px;
+}
+
+section .waveD3.waveD3{
+    background: url(/View/LoginGUI/img/lading/waveD1.svg);
+    animation: animate2 5s  linear infinite;
+    z-index: 200;
+    opacity: 1;
+    animation-delay: 0.5s;
+    bottom: 0;
+}
+
+section .waveM{
+    background: url(/View/LoginGUI/img/lading/waveM.svg);
+    position: absolute;
+    right: 175px;
+    top: 15px;
+    width: 95px;
+    height: 90px;
+    background-size: 100px 100px;
+    z-index: 202;
+    opacity: 1;
+}
+
+@keyframes animate {
+    0% {
+        background-position-y: 0;
+    }
+    50%{
+        background-position-y: 35px;
+    }
+    100%{
+        background-position-y: 0px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-y: 0;
+    }
+    50%{
+        background-position-y: -40px;
+    }
+    100%{
+        background-position-y: 0px;
+    }
+}
+@keyframes animate3 {
+    0% {
+        background-position-y: 5;
+    }
+    25% {
+        background-position-y: 0;
+    }
+    50%{
+        background-position-y: -20px;
+    }
+    100%{
+        background-position-y: 0px;
+    }
+}
